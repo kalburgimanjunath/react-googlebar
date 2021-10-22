@@ -5,9 +5,9 @@ export default function Avatar({ user }) {
       <h1>{user.name}</h1>
       <p>
         <div>Email:{user.email}</div>
-        <div>Email:{user.phone}</div>
-        <div>Email:{user.username}</div>
-        <div>Email:{user.website}</div>
+        <div>Phone:{user.phone}</div>
+        <div>Username:{user.username}</div>
+        <div>Website:{user.website}</div>
       </p>
     </div>
   );
